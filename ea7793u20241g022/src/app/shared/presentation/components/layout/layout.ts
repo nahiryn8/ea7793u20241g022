@@ -21,7 +21,7 @@ export class Layout {
   readonly collapsed = signal(false);
   readonly options = [
     {link: '/home', label: 'Home', icon: 'home'},
-    {link: '/about', label: 'New Reservation', icon: 'add'},
+    {link: '/add', label: 'New Reservation', icon: 'add'},
   ];
 
   toggleMenu(): void {
