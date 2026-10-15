@@ -1,9 +1,15 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
+/**
+ * Displays localized footer text.
+ */
 @Component({
-  imports: [],
   selector: 'app-footer-content',
-  styleUrl: './footer-content.css',
+  imports: [
+  ],
   templateUrl: './footer-content.html',
+  styleUrl: './footer-content.css'
 })
-export class FooterContent {}
+export class FooterContent {
+
+}
