@@ -1,5 +1,7 @@
 <mat-sidenav-container class="layout-container" autosize>
   <mat-sidenav mode="side" opened [class.collapsed]="collapsed()" class="sidenav">
+
+
     <div class="brand">
       <button mat-icon-button (click)="toggleMenu()" aria-label="Toggle navigation">
         <mat-icon>menu</mat-icon>
@@ -7,6 +9,7 @@
       @if (!collapsed()) {
         <span>My Adventure Camps</span>
       }
+
     </div>
 
     <mat-nav-list>
@@ -18,6 +21,11 @@
           }
         </a>
       }
+      <span>
+        <app-language-switcher/>
+      </span>
+
+
     </mat-nav-list>
   </mat-sidenav>
 
